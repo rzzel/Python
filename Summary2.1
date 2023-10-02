@@ -1,0 +1,11 @@
+1.If you want to import a module as a whole, you can do it using the import module_name statement. You are allowed to import more than one module at once using a comma-separated list.
+2. If a module is imported in the above manner and you want to access any of its entities, you need to prefix the entity's name using dot notation.
+3. You are allowed not only to import a module as a whole, but to import only individual entities from it. In this case, the imported entities must not be prefixed when used.
+4.The most general form of the above statement allows you to import all entities offered by a module:
+
+
+from my_module import *
+  
+result = my_function(my_data)
+
+5.You can change the name of the imported entity "on the fly" by using the as phrase of the import.
