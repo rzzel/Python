@@ -1,15 +1,11 @@
-# input a float value for variable a here
-inpa = float(input("Input first value: "))
-# input a float value for variable b here
-inpb = float(input("Input second value: "))
+from math import pi, radians, degrees, sin, cos, tan, asin
 
-# output the result of addition here
-print("Total number is equal to: " + str(inpa + inpb))
-# output the result of subtraction here
-print("Difference of two number is: " + str(inpa - inpb))
-# output the result of multiplication here
-print("Product of the two number is : " + str(inpa * inpb))
-# output the result of division here
-print("Quotient of the two number is : " +str(inpa / inpb))
-print("\nThat's all, folks!")
+ad = 90
+ar = radians(ad)
+ad = degrees(ar)
 
+print(ad == 90.)
+print(ar == pi / 2.)
+print(sin(ar) / cos(ar) == tan(ar))
+print(asin(sin(ar)) == ar)
+    
