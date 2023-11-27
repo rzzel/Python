@@ -12,5 +12,6 @@ let helenRichardsPhone = "0800 1111";
 let helenRichardsEmail = "libero@convallis.edu";
 
 // Display information about the first and last contact
+
 console.log(`${maxwellWrightName}/${maxwellWrightPhone}/${maxwellWrightEmail}`);
 console.log(`${helenRichardsName}/${helenRichardsPhone}/${helenRichardsEmail}`);
