@@ -1,4 +1,4 @@
-// Declare variables
+
 let maxwellWrightName = "Maxwell Wright";
 let maxwellWrightPhone = "(0191) 719 6495";
 let maxwellWrightEmail = "Curabitur.egestas.nunc@nonummyac.co.uk";
