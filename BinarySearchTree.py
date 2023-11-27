@@ -1,6 +1,5 @@
 # Binary Search Tree operations in Python
 
-
 # Create a node
 class Node:
     def __init__(self, key):
