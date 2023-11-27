@@ -83,7 +83,6 @@ def deleteNode(root, key):
 
     return root
 
-
 root = None
 root = insert(root, 8)
 root = insert(root, 3)
